@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the game</p>
+</header>
+<form id="survey-form">
+  <label id="name-label">
+    Name
+    <input type="text" id="name"
+    placeholder="Enter your name"
+    name="name-label"
+    required>
+    </label><br>
+    
+    <label id="email-label">
+    Email
+    <input type="email" id="email"
+    placeholder="Enter your Email"
+    name="email-label"
+    required>
+    </label><br>
+    
+    
+      <label id="number-label">
+        Age(optional)
+        <input type="number" id="number"
+        placeholder="Age"
+        min="18"
+        max="99"
+        name="number-label">
+        </label>
+        
+          <p>choose-your-favorite-faction<p>
+        <label>
+        <select id="dropdown">
+          <option selected disabled value="select-current-faction">select current faction</option>
+          <option value="Duty">Duty</option>
+          <option value="Freedom">Freedom</option>
+          <option value="Loners">Loners</option>
+          <option value="Scientists">Scientists</option>
+          <option value="Mercenaries">Mercenaries</option>
+          <option value="Clear Sky">Clear Sky</option>
+          <option value="Bandits">Bandits</option>
+          <option value="Monolith">Monolith</option>
+          <option value="Military">Military</option>
+          <option value="Sin">Sin</option>
+          <option value="Renegades">Renegades</option>
+          <option value="ISG (International Scientific Group)">ISG (International Scientific Group)</option>
+        </select>
+        </label>
+        
+          <p>Would you recommend S.T.A.L.K.E.R GAMMA to a friend?</p>
+          <input id="Definitely-option" type="radio" value="Definitely" name="Would you recommend S.T.A.L.K.E.R GAMMA to a friend?">
+          <label for="Definitely-option">Definitely</label>
+          <input id="Maybe-option" type="radio" value="Maybe" name="Would you recommend S.T.A.L.K.E.R GAMMA to a friend?">
+          <label for="Maybe-option">Maybe</label>
+          <input id="Not-sure-option" type="radio" value="Not-sure" name="Would you recommend S.T.A.L.K.E.R GAMMA to a friend?">
+          <label for="Not-sure-option">Not sure</label>
+          <input id="definitely-not-option" type="radio" value="definitely-not" name="Would you recommend S.T.A.L.K.E.R GAMMA to a friend?">
+          <label for="definitely-not-option">definitely-not</label>
+          
+          <p>What is your favorite feature or mechanic in S.T.A.L.K.E.R Gamma?<p>
+        <label>
+        <select id="most-like">
+          <option selected disabled value="Choose-a-game-mechanic">Choose a game mechanic</option>
+          <option value="Survival-System">Survival System</option>
+          <option value="Economy-System">Economy System</option>
+          <option value="Faction-Relations">Faction Relations</option>
+          <option value="Combat-System">Combat System</option>
+          <option value="Loot-System">LootSystem</option>
+          <option value="WeaponMaintenance">WeaponMaintenance</option>
+          <option value="Dynamic Weather">Dynamic Weather</option>
+        </select>
+        </label>
+        
+            <p>What would you like to see improved? (Check apply)</p>
+            <input value="Bugs with NPCs" type="checkbox">
+            <label>Bugs with NPCs</label>
+            <input value="Mod conflicts" type="checkbox">
+            <label>Mod conflicts</label>
+            <input value="Heavy optimization" type="checkbox">
+            <label>Heavy optimization</label>
+            <input value="Lack of a clear storyline" type="checkbox">
+            <label>Lack of a clear storyline</label>
+            <input value="Difficulty repairing weapons and armor" type="checkbox">
+            <label>Difficulty repairing weapons and armor</label>
+            <input value="Unfair fights" type="checkbox">
+            <label>Unfair fights</label>
+            <input value="difficult system of medicine" type="checkbox">
+            <label>difficult system of medicine</label>
+            <input value="so that merchants sell at least basic weapons" type="checkbox">
+            <label>so that merchants sell at least basic weapons</label>
+            <input value="More friendly introduction or tutorial hints" type="checkbox">
+            <label>More friendly introduction or tutorial hints</label>
+            <input value="more unique differences from Anomaly" type="checkbox">
+            <label>more unique differences from Anomaly</label>
+          
+            <p>Any comments or suggestions?</p>
+          <label for="commnets"></label>
+          <textarea placeholder="Enter your comment here..." cols="40" rows="8" name="commnets" id="commnets"></textarea><br>
+          
+          <button id="submit" type="submit">submit</button>
+          </form>
+  </body>
+</html>
