@@ -1,4 +1,5 @@
 # Survey-Form
+# Attention: This form is created only as a laboratory work. The entered data (name, email, answers) are not saved or sent.
 - Project name: Survey Form
 - Technologies: HTML
 - Authorship: performed independently as part of the assignment
